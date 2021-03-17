@@ -7,7 +7,6 @@ extensions
 debug.db
 *.db
 test
-dist
 tmp
 keys.json
 
