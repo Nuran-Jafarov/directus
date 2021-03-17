@@ -7,7 +7,6 @@
 		"lint": "lerna run lint",
 		"release": "lerna publish --force-publish",
 		"cli": "cross-env DIRECTUS_DEV=true NODE_ENV=development DOTENV_CONFIG_PATH=api/.env ts-node -r dotenv/config --script-mode --transpile-only api/src/cli/index.ts",
-		"postinstall": "npm run build",
 		"prettier": "lerna run prettier"
 	},
 	"repository": {
